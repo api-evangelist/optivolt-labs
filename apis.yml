@@ -1,7 +1,27 @@
 aid: optivolt-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/optivolt-labs.png
 name: Optivolt Labs
-description: Optivolt Labs is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Optivolt Labs (operating as Optivolt) is a Burlingame, California solar technology
+  company building intelligent home solar systems with power electronics embedded
+  directly inside each panel. Its patented Balancer device shuffles power from stronger
+  to weaker zones within a panel to keep energy flowing in shaded and non-ideal
+  conditions, delivering up to 50% more annual energy and improved shaded performance
+  versus conventional panels. The product line includes 450W N-type mono half-cut
+  panels, universal battery and inverter compatibility, and a real-time monitoring
+  app for tracking energy and savings. Optivolt is a Techstars-backed hardware
+  company; it does not currently publish a public developer API, SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/optivolt-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Solar
+- Energy
+- Clean Energy
+- Hardware
+- Power Electronics
+- Solar Monitoring
+- IoT
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +49,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://optivoltlabs.com/
+  url: https://www.optivolt.com/
+- type: GitHubOrganization
+  url: https://github.com/optivolt
+- type: SignUp
+  url: https://www.optivolt.com/order
+- type: TermsOfService
+  url: https://www.optivolt.com/legal/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.optivolt.com/legal/privacy-policy
+- type: DomainSecurity
+  url: security/optivolt-labs-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
